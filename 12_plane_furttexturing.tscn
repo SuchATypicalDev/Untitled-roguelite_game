@@ -1,0 +1,54 @@
+[gd_scene load_steps=7 format=4 uid="uid://btygv20tcjnta"]
+
+[ext_resource type="Shader" uid="uid://ds6iji8g0ke4t" path="res://enemies/env/shaders/fur_grass.gdshader" id="1_0y17w"]
+[ext_resource type="Texture2D" uid="uid://d31uxy03qf067" path="res://noise.png" id="2_4mm1f"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_20ejd"]
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ej4t5"]
+_surfaces = [{
+"aabb": AABB(-1, -1, -0.01, 2, 2, 0.109999985),
+"format": 34359742465,
+"index_count": 72,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQAGAAZABoAGgAbABgAHAAdAB4AHgAfABwAIAAhACIAIgAjACAAJAAlACYAJgAnACQAKAApACoAKgArACgALAAtAC4ALgAvACwA"),
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 48,
+"vertex_data": PackedByteArray("AACAPwAAgD8AAAAAAACAPwAAgL8AAAAAAACAvwAAgL8AAAAAAACAvwAAgD8AAAAAAACAPwAAgD8K1yO8AACAPwAAgL8K1yO8AACAvwAAgL8K1yO8AACAvwAAgD8K1yO8AACAPwAAgD8K1yM8AACAPwAAgL8K1yM8AACAvwAAgL8K1yM8AACAvwAAgD8K1yM8AACAPwAAgD8K16M8AACAPwAAgL8K16M8AACAvwAAgL8K16M8AACAvwAAgD8K16M8AACAPwAAgD+PwvU8AACAPwAAgL+PwvU8AACAvwAAgL+PwvU8AACAvwAAgD+PwvU8AACAPwAAgD8K1yM9AACAPwAAgL8K1yM9AACAvwAAgL8K1yM9AACAvwAAgD8K1yM9AACAPwAAgD/MzEw9AACAPwAAgL/MzEw9AACAvwAAgL/MzEw9AACAvwAAgD/MzEw9AACAPwAAgD+OwnU9AACAPwAAgL+OwnU9AACAvwAAgL+OwnU9AACAvwAAgD+OwnU9AACAPwAAgD8oXI89AACAPwAAgL8oXI89AACAvwAAgL8oXI89AACAvwAAgD8oXI89AACAPwAAgD8J16M9AACAPwAAgL8J16M9AACAvwAAgL8J16M9AACAvwAAgD8J16M9AACAPwAAgD/qUbg9AACAPwAAgL/qUbg9AACAvwAAgL/qUbg9AACAvwAAgD/qUbg9AACAPwAAgD/LzMw9AACAPwAAgL/LzMw9AACAvwAAgL/LzMw9AACAvwAAgD/LzMw9")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_lnshy"]
+resource_name = "Plane_001"
+_surfaces = [{
+"aabb": AABB(-1, -1, -0.01, 2, 2, 0.109999985),
+"attribute_data": PackedByteArray("AACAPwAAAAAAAIA/AACAPwAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAgD8AAIA/AAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAACAPwAAgD8AAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAIA/AACAPwAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAgD8AAIA/AAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAACAPwAAgD8AAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAIA/AACAPwAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAgD8AAIA/AAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAACAPwAAgD8AAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAIA/AACAPwAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAgD8AAIA/AAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAACAPwAAgD8AAAAAAACAPwAAAAAAAAAA"),
+"format": 34359742487,
+"index_count": 72,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQAGAAZABoAGgAbABgAHAAdAB4AHgAfABwAIAAhACIAIgAjACAAJAAlACYAJgAnACQAKAApACoAKgArACgALAAtAC4ALgAvACwA"),
+"material": SubResource("StandardMaterial3D_20ejd"),
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 48,
+"vertex_data": PackedByteArray("AACAPwAAgD8AAAAAAACAPwAAgL8AAAAAAACAvwAAgL8AAAAAAACAvwAAgD8AAAAAAACAPwAAgD8K1yO8AACAPwAAgL8K1yO8AACAvwAAgL8K1yO8AACAvwAAgD8K1yO8AACAPwAAgD8K1yM8AACAPwAAgL8K1yM8AACAvwAAgL8K1yM8AACAvwAAgD8K1yM8AACAPwAAgD8K16M8AACAPwAAgL8K16M8AACAvwAAgL8K16M8AACAvwAAgD8K16M8AACAPwAAgD+PwvU8AACAPwAAgL+PwvU8AACAvwAAgL+PwvU8AACAvwAAgD+PwvU8AACAPwAAgD8K1yM9AACAPwAAgL8K1yM9AACAvwAAgL8K1yM9AACAvwAAgD8K1yM9AACAPwAAgD/MzEw9AACAPwAAgL/MzEw9AACAvwAAgL/MzEw9AACAvwAAgD/MzEw9AACAPwAAgD+OwnU9AACAPwAAgL+OwnU9AACAvwAAgL+OwnU9AACAvwAAgD+OwnU9AACAPwAAgD8oXI89AACAPwAAgL8oXI89AACAvwAAgL8oXI89AACAvwAAgD8oXI89AACAPwAAgD8J16M9AACAPwAAgL8J16M9AACAvwAAgL8J16M9AACAvwAAgD8J16M9AACAPwAAgD/qUbg9AACAPwAAgL/qUbg9AACAvwAAgL/qUbg9AACAvwAAgD/qUbg9AACAPwAAgD/LzMw9AACAPwAAgL/LzMw9AACAvwAAgL/LzMw9AACAvwAAgD/LzMw9/3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_ej4t5")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_jvre3"]
+render_priority = 0
+shader = ExtResource("1_0y17w")
+shader_parameter/noise = ExtResource("2_4mm1f")
+shader_parameter/cutoff = 0.0
+shader_parameter/color = Color(0.29056153, 0.63277954, 0.82529086, 1)
+shader_parameter/uvscale = 0.005
+
+[node name="12plane-furttexturing" type="Node3D"]
+transform = Transform3D(1000, 0, 0, 0, 1, 0, 0, 0, 1000, 0, 0, 0)
+visible = false
+
+[node name="Plane_001" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.44577593, 0.89514434, 0, 0, 0, 1, 0.89514434, -0.44577593, 0, 0, 0.059532166, 0)
+mesh = SubResource("ArrayMesh_lnshy")
+skeleton = NodePath("")
+surface_material_override/0 = SubResource("ShaderMaterial_jvre3")
