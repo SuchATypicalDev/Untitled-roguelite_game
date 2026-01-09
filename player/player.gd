@@ -1,6 +1,6 @@
 extends CharacterBody3D
 
-const CAM_SENS_X = 0.5 #in rad
+const CAM_SENS_X = 0.005 #in rad
 const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
 func _physics_process(delta: float) -> void:
@@ -26,4 +26,4 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
-		rotate_y(-CAM_SENS_X*get_process_delta_time()*event.screen_relative.x)
+		rotation.y += -CAM_SENS_X*event.screen_relative.x
