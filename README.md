@@ -1,7 +1,7 @@
 # introduction
-this is a hobby project by me-SuchATypicalDev-which is intended to be a base or reference for people who would like a kickstart in game development using the godot engine
+this is a hobby project by me -SuchATypicalDev- which is intended to be a base or reference for people who would like a kickstart in game development using the godot engine
 # disclaimer
-this project is in no way a proper guide for safe/secure/performant code and im not responsible in any way for any trouble this project may cause including but not limited tounpatched vulnerabilities and outdated code practices
+this project is in no way a proper guide for safe/secure/performant code and im not responsible in any way for any trouble this project may cause including but not limited to unpatched vulnerabilities and outdated code practices
 # dependencies
 currently there are no dependencies just import the porject using godot.
 # how to install 
