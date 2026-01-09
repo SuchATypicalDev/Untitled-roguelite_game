@@ -1,0 +1,13 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+#*.svg
+#*.png
+#*.fbx
+addons/
+*.kra
+#*.godot
+#*.import
+#*.uid
+#.gitignore
+#.gitattributes
