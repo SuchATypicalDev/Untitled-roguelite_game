@@ -6,7 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://cax8sbm1s0d81" path="res://256-blobshadow.png" id="4_oqo0w"]
 [ext_resource type="Texture2D" uid="uid://c4grf1o8xxjkq" path="res://enemies/64-hungryfly.png" id="7_anra8"]
 [ext_resource type="Texture2D" uid="uid://d31uxy03qf067" path="res://noise.png" id="9_f55n0"]
-[ext_resource type="Shader" uid="uid://ds6iji8g0ke4t" path="res://enemies/env/shaders/fur_grass.gdshader" id="9_jvre3"]
+[ext_resource type="Shader" uid="uid://ds6iji8g0ke4t" path="res://env/shaders/fur_grass.gdshader" id="9_jvre3"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_anra8"]
 

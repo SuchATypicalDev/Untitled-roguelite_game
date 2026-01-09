@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=4 uid="uid://btygv20tcjnta"]
 
-[ext_resource type="Shader" uid="uid://ds6iji8g0ke4t" path="res://enemies/env/shaders/fur_grass.gdshader" id="1_0y17w"]
+[ext_resource type="Shader" uid="uid://ds6iji8g0ke4t" path="res://env/shaders/fur_grass.gdshader" id="1_0y17w"]
 [ext_resource type="Texture2D" uid="uid://d31uxy03qf067" path="res://noise.png" id="2_4mm1f"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_20ejd"]
