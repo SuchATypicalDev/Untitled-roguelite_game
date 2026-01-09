@@ -5,9 +5,9 @@ this project is in no way a proper guide for safe/secure/performant code and im 
 # dependencies
 currently there are no dependencies just import the porject using godot.
 # how to install 
-1-download godot (the porject uses godot v4.5.1 stable downgrading or upgrading may cause unexpected behaviour, do it on your own risk)
+1-download godot (the project uses godot v4.5.1 stable downgrading or upgrading may cause unexpected behaviour, do it on your own risk)
 
-2-clone the repo to a folder on your file system and name it whatever you want
+2-clone the repo to a directory on your file system and name it whatever you want
 
 3-use godot to import a project from the directory that you cloned into
 
